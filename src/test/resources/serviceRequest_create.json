@@ -1,0 +1,40 @@
+{
+  "resourceType": "ServiceRequest",
+  "status": "draft",
+  "subject": {
+    "reference": "Patient/5"
+  },
+  "occurrencePeriod": {
+    "start": "2019-11-01T05:30:00.000Z",
+    "end": "2019-11-05T08:00:00.000Z"
+  },
+  "requester": "Organization/4",
+  "locationReference": "Location/11",
+  "performer": [
+    {
+      "reference": "Practitioner/13"
+    },
+    {
+      "reference": "Device/12"
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.6.96",
+        "code": "439499006",
+        "display": "Excision of bone of cranium and excision of infratentorial neoplasm of brain (procedure)"
+      }
+    ]
+  },
+  "supportingInfo": [
+    {
+      "reference": "Practitioner/13"
+    }
+  ],
+  "note": [
+    {
+      "text": "Excision of bone of cranium and excision of infratentorial neoplasm of brain, Notes"
+    }
+  ]
+}

@@ -9,7 +9,9 @@ libraryDependencies ++= Seq(
   "io.gatling" % "gatling-app" % "3.2.1",
   "io.gatling.highcharts" % "gatling-charts-highcharts" % "3.2.1",
   "io.gatling.highcharts" % "gatling-charts-highcharts" % "3.2.1" % Test,
-  "io.gatling" % "gatling-test-framework" % "3.2.1"% Test,
+  "io.gatling" % "gatling-test-framework" % "3.2.1" % Test,
+  "org.scalactic" %% "scalactic" % "3.0.8",
+  "org.scalatest" %% "scalatest" % "3.0.8" % Test
 )
 
 assemblyMergeStrategy in assembly := {

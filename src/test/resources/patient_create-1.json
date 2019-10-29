@@ -1,0 +1,24 @@
+{
+  "resourceType": "Patient",
+  "identifier": [{
+    "use": "temp",
+    "system": "http://jnjcom/fhir/sid/patienttoken",
+    "value": "9977892b-cca5-424f-aa69-1e0e46ba015f"
+  }],
+  "gender": "female",
+  "birthDate": "1969-02-05",
+  "name": [
+    {
+      "use": "official",
+      "family": "Lannister",
+      "given": [
+        "Soirse",
+        "Circee"
+      ]
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization/4",
+    "display": "Alexandria Hospital"
+  }
+}

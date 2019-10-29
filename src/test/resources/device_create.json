@@ -1,0 +1,17 @@
+{
+  "resourceType": "Device",
+  "status": "active",
+  "location": {
+    "reference": "Location/11"
+  },
+  "owner": {
+    "reference": "Organization/4"
+  },
+  "manufacturer": "VERB Surgical",
+  "model": "Surgical Robot",
+  "note": [
+    {
+      "text": "deviceTemplate::value1;deviceScope::Leaf;gateway::1646;organization::Organization/1966785;location::Location/1969769"
+    }
+  ]
+}
